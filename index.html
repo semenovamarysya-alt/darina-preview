@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ЖК Басманный — Preview</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<main class="site-shell">
+  <section class="hero" id="project">
+    <img class="hero-media" src="https://effervescent-treacle-4626e9.netlify.app/.netlify/functions/media?key=basmanny%2Fhero.png" alt="ЖК Басманный">
+    <div class="hero-shade"></div>
+    <header class="topbar">
+      <a class="brand-logo" href="#project"><img src="https://effervescent-treacle-4626e9.netlify.app/darina-logo.png" alt="Darina Ermak Interiors"></a>
+      <nav class="nav"><a href="#rooms">Помещения</a></nav>
+    </header>
+    <div class="hero-content">
+      <div class="eyebrow">Частный интерьер</div>
+      <h1>ЖК Басманный</h1>
+      <div class="hero-bottom">
+        <div class="metrics">
+          <div><strong>61 м²</strong><span>общая площадь</span></div>
+          <div><strong>3</strong><span>помещения</span></div>
+          <div><strong>2026</strong><span>проект</span></div>
+        </div>
+        <p class="hero-note">Тёплый современный интерьер с натуральными фактурами дерева, камня и мягким архитектурным светом.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="rooms-section" id="rooms">
+    <div class="section-heading"><div><span>01</span><i></i><h2>Помещения</h2></div></div>
+    <div class="rooms-grid">
+      <button class="room-card" data-room="Кухня-гостиная" data-area="37 м²"><span class="room-copy"><strong>Кухня-гостиная</strong><small>37 м²</small></span><span class="room-arrow">↗</span></button>
+      <button class="room-card" data-room="Спальня" data-area="20 м²"><span class="room-copy"><strong>Спальня</strong><small>20 м²</small></span><span class="room-arrow">↗</span></button>
+      <button class="room-card" data-room="Ванная комната" data-area="4 м²"><span class="room-copy"><strong>Ванная комната</strong><small>4 м²</small></span><span class="room-arrow">↗</span></button>
+    </div>
+  </section>
+
+  <section class="workspace" id="workspace">
+    <div class="workspace-head">
+      <span class="eyebrow eyebrow-dark">Рабочая зона проекта</span>
+      <h2 id="room-title">Кухня-гостиная</h2>
+      <p id="room-meta">37 м²</p>
+    </div>
+    <div class="public-stage-tabs">
+      <button>Черновик</button>
+      <button class="active">Финал</button>
+      <button>Чертежи</button>
+    </div>
+    <div class="stage-panel">
+      <div class="stage-visual empty-stage">
+        <div class="stage-empty-message">
+          <span>Материалы готовятся</span>
+          <strong>Финальные рендеры скоро появятся здесь.</strong>
+          <p>Проект ещё в работе. Загляните немного позже.</p>
+        </div>
+      </div>
+      <div class="stage-info">
+        <span class="stage-kicker">Текущий этап</span>
+        <h3>Финал</h3>
+        <p>Финальные рендеры ещё готовятся.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="./main.js"></script>
+</body>
+</html>
